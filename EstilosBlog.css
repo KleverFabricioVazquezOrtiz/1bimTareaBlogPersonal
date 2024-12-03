@@ -11,7 +11,7 @@ body{
     margin: 0px auto;
 }
 header h1{
-    background: #36768f;
+    background: #073041;
     height: 200px;
     width: 100%;
     text-align: center;
@@ -21,7 +21,7 @@ header h1{
     font-size: 50px;
 }
 nav{
-    background: #000000;
+    background: #689cdf;
     height: 50px;
     border-bottom: 5px solid #ffffff;
 }
@@ -34,12 +34,25 @@ nav ul li{
     line-height: 30px;
 }
 .clear{
-    clear: both;
+    clear: both;   
 }
+
 #contenido{
     float:left;
     width: calc(80% - 80px);
     min-height: 500px;
     background: #fcfcfc;
     padding: 40px;
+}
+.video{
+    width: 100%;
+
+    margin: 0px auto;
+    #contenido{
+        float:left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: #fcfcfc;
+    padding: 40px;
+    }
 }
